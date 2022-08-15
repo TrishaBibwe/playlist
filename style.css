@@ -1,0 +1,35 @@
+#header{
+    width: 100%;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 0;
+    background-color: white;
+    padding: 20px;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    font-size: 18px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.songs{
+    text-align: left;
+    margin-left: 450px;
+    margin-top:50px ;
+    margin-bottom:50px;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+
+body{
+    background: rgb(221,15,15);
+background: linear-gradient(90deg, rgba(221,15,15,1) 0%, rgba(242,72,5,1) 35%, rgba(224,255,0,1) 100%);
+}
+

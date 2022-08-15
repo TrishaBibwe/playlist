@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<center>
+    <h1 id="header">Trisha's Playlist</h1>
+    <br>
+    <button class="glyphicon glyphicon-stop" onclick="stopp()" style="float:right; font-size: 40px; margin-right: 100px;"></button>
+    <br>
+    <p style="float:right; font-size: 20px; margin-right: 100px;">Instructions:Click on the song names or song art to play them.</p>
+    <div class="songs">
+        <img id="a1" width="80" src="song1.png" onclick="s1()">
+        <span id="song1" style="margin-left:200px;" onclick="s1()">DYNAMITE</span>
+    </div>
+
+    <div class="songs">
+        <img id="a2" width="80" src="song2.png" onclick="s2()">
+        <span id="song1" style="margin-left:200px ;" onclick="s2()">BUTTER</span>
+    </div>
+
+    <div class="songs">
+        <img id="a3" width="80" src="song3.png" onclick="s3()">
+        <span id="song1" style="margin-left:200px ;" onclick="s3()">PERMISSION TO DANCE</span>
+    </div>
+
+    <div class="songs">
+        <img id="a5" width="80" src="song4.jpg" onclick="s4()">
+        <span id="song1" style="margin-left:200px ;" onclick="s4()">YET TO COME</span>
+    </div>
+
+    <div class="songs">
+        <img id="a5" width="80" src="song5.jpg" onclick="s5()">
+        <span id="song1" style="margin-left:200px ;" onclick="s5()">LIFE GOES ON</span>
+    </div>
+  	
+</center>
+<div class="footer">Made by Trisha using ml5 and p5.js</div>
+
+<script src="main.js"></script>
+</body>
+</html>
